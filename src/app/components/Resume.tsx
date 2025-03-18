@@ -28,7 +28,7 @@ const DownloadPDF = ({ pdfUrl }: { pdfUrl: string }) => {
 
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'file.pdf';
+        link.download = 'Resume_Romit_Gabani.pdf';
         document.body.appendChild(link);
         link.click();
 
