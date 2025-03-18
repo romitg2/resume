@@ -2,15 +2,6 @@
 import { useState, useEffect } from 'react'
 
 export default function Resume({ url }: { url: string }) {
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        setLoading(false);
-    }, []);
-
-    if (!url) {
-        return <div></div>
-    }
 
     return (
         <>
